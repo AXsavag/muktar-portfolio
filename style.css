@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Muktar Ibrahim | AI Developer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>👋 Hi, I'm <span>Muktar Ibrahim</span></h1>
+    <p>I build powerful AI apps and solutions for businesses worldwide.</p>
+    <nav>
+      <a href="#work">My Work</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="work">
+    <h2>🚀 Featured Project</h2>
+    <p>
+      <strong>AI FAQ App:</strong> A chatbot that answers customer questions automatically.  
+      👉 <a href="https://ai-faq.netlify.app/" target="_blank">Try it Live</a> | 
+      <a href="https://github.com/AXsavag/ai-faq-app" target="_blank">View Code</a>
+    </p>
+  </section>
+
+  <section id="contact">
+    <h2>📬 Contact Me</h2>
+    <p>Email: <a href="mailto:muktaribro13@gmail.com">muktaribro13@gmail.com</a></p>
+    <p>Facebook: <a href="https://facebook.com" target="_blank">Connect on Facebook</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Muktar Ibrahim | AI Developer</p>
+  </footer>
+</body>
+</html>
