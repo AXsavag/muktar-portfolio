@@ -1,38 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Muktar Ibrahim | AI Developer</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Muktar Ibrahim - AI Developer</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <!-- Navigation -->
   <header>
-    <h1>👋 Hi, I'm <span>Muktar Ibrahim</span></h1>
-    <p>I build powerful AI apps and solutions for businesses worldwide.</p>
-    <nav>
-      <a href="#work">My Work</a>
-      <a href="#contact">Contact</a>
+    <nav class="navbar">
+      <h1 class="logo">Muktar AI</h1>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><button id="theme-toggle">🌙</button></li>
+      </ul>
     </nav>
   </header>
 
-  <section id="work">
-    <h2>🚀 Featured Project</h2>
+  <!-- Hero / Banner -->
+  <section id="home" class="hero">
+    <img src="A_digital_graphic_design_banner_showcases_Muktar_.png" alt="Muktar Ibrahim Banner" class="banner" />
+    <h2>👋 Hi, I’m <span class="highlight">Muktar Ibrahim</span></h2>
+    <p>I build AI-powered apps & chatbots for businesses worldwide.</p>
+  </section>
+
+  <!-- About -->
+  <section class="about">
+    <h2>About Me</h2>
     <p>
-      <strong>AI FAQ App:</strong> A chatbot that answers customer questions automatically.  
-      👉 <a href="https://ai-faq.netlify.app/" target="_blank">Try it Live</a> | 
-      <a href="https://github.com/AXsavag/ai-faq-app" target="_blank">View Code</a>
+      I specialize in building custom AI solutions – from chatbots to automation systems – helping businesses grow, save time, and increase profits.
     </p>
   </section>
 
-  <section id="contact">
+  <!-- Projects -->
+  <section id="projects" class="projects">
+    <h2>🚀 Featured Project</h2>
+    <div class="card">
+      <h3>AI FAQ App</h3>
+      <p>A chatbot that answers customer questions automatically.</p>
+      <a href="https://ai-faq.netlify.app/" target="_blank" class="btn">Live Demo</a>
+      <a href="https://github.com/AXsavag/ai-faq-app" target="_blank" class="btn-outline">Source Code</a>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
     <h2>📬 Contact Me</h2>
     <p>Email: <a href="mailto:muktaribro13@gmail.com">muktaribro13@gmail.com</a></p>
-    <p>Facebook: <a href="https://facebook.com" target="_blank">Connect on Facebook</a></p>
+    <p>Facebook: <a href="https://facebook.com" target="_blank">Connect with me</a></p>
+    <p>GitHub: <a href="https://github.com/AXsavag" target="_blank">github.com/AXsavag</a></p>
   </section>
 
   <footer>
-    <p>© 2025 Muktar Ibrahim | AI Developer</p>
+    <p>© 2025 Muktar Ibrahim. All rights reserved.</p>
   </footer>
+
+  <script>
+    // Dark/Light Mode Toggle
+    const toggleBtn = document.getElementById("theme-toggle");
+    toggleBtn.addEventListener("click", () => {
+      document.body.classList.toggle("dark");
+      toggleBtn.textContent = document.body.classList.contains("dark") ? "☀️" : "🌙";
+    });
+  </script>
 </body>
 </html>
