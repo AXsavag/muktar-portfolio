@@ -1,27 +1,30 @@
 # 🌐 Muktar Ibrahim - AI Developer
 
+![Muktar Ibrahim - AI Developer Banner](./banner.png)
+
 Hi 👋 I’m **Muktar Ibrahim**, and I build **AI-powered apps & chatbots** for businesses worldwide 🌍.  
 I specialize in creating smart solutions that save time, increase profits, and improve customer experiences.
 
 ---
 
-## 🚀 Featured Projects
-
-### 🔹 AI FAQ App
-A chatbot that answers customer questions automatically.  
-- 🌐 [Live Demo](https://ai-faq.netlify.app/)  
-- 💻 [Source Code](https://github.com/AXsavag/ai-faq-app)
-
-### 🔹 AI Business Assistant (Coming Soon 🚧)
-An intelligent virtual assistant to help businesses handle customers and automate tasks.  
+## 🚀 My Services
+- 🤖 Custom AI Chatbots  
+- 🧠 AI-powered Business Automation  
+- 📊 Data Analysis & Insights  
+- 🌐 AI Integration into Websites & Apps  
 
 ---
 
-## 📬 Contact Me
-- 📧 Email: [muktaribro13@gmail.com](mailto:muktaribro13@gmail.com)  
-- 🔗 Facebook: [Connect with me on Facebook](https://www.facebook.com/share/1Engwt9e9m/)  
-- 💻 GitHub: [github.com/AXsavag](https://github.com/AXsavag)  
+## 📂 Featured Project
+🔗 [AI FAQ Assistant](https://github.com/AXsavag/ai-faq-app) – An intelligent FAQ bot built with React & Node.js.
 
 ---
 
-© 2025 Muktar Ibrahim. All rights reserved.
+## 📬 Connect With Me
+- ✉️ Email: **muktaribro13@gmail.com**  
+- 💼 Facebook: [Muktar Ibrahim](https://www.facebook.com/share/1Engwt9e9m/)  
+- 🌐 Portfolio Website: (Coming soon...)  
+
+---
+
+⭐️ Don’t forget to **star my repos** if you like my work!
