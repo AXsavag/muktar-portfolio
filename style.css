@@ -1,123 +1,40 @@
-/* Reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, sans-serif;
+/* Custom styles for Muktar Ibrahim Portfolio */
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
 }
 
-body {
-  line-height: 1.6;
-  background: #f9f9f9;
-  color: #333;
-  transition: background 0.3s, color 0.3s;
-}
-
-.dark {
-  background: #121212;
-  color: #f1f1f1;
-}
-
-/* Navbar */
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 2rem;
-  background: #0077ff;
-  color: white;
-}
-
-.navbar ul {
-  display: flex;
-  gap: 1rem;
-  list-style: none;
-}
-
-.navbar a {
-  color: white;
-  text-decoration: none;
-}
-
-#theme-toggle {
-  background: transparent;
-  border: none;
-  font-size: 1.2rem;
-  cursor: pointer;
-}
-
-/* Hero Section */
-.hero {
-  text-align: center;
-  padding: 2rem;
-}
-
-.hero .banner {
-  max-width: 100%;
-  border-radius: 12px;
-  margin-bottom: 1rem;
-}
-
-.highlight {
-  color: #0077ff;
-  font-weight: bold;
-}
-
-/* Sections */
+/* Section spacing */
 section {
-  padding: 2rem;
-  max-width: 900px;
-  margin: auto;
-}
-
-h2 {
-  margin-bottom: 1rem;
-  color: #0077ff;
-}
-
-/* Projects */
-.projects .card {
-  padding: 1.5rem;
-  border: 1px solid #ddd;
-  border-radius: 12px;
-  background: white;
-  text-align: center;
-}
-
-.dark .projects .card {
-  background: #1e1e1e;
-  border: 1px solid #444;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 /* Buttons */
-.btn, .btn-outline {
+a.button {
   display: inline-block;
-  margin: 0.5rem;
-  padding: 0.7rem 1.2rem;
-  border-radius: 8px;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.btn {
-  background: #0077ff;
+  padding: 12px 24px;
+  background: #2563eb;
   color: white;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: all 0.3s ease;
 }
 
-.btn-outline {
-  border: 2px solid #0077ff;
-  color: #0077ff;
+a.button:hover {
+  background: #1d4ed8;
+  transform: scale(1.05);
 }
 
-.btn:hover, .btn-outline:hover {
-  opacity: 0.8;
+/* Card hover effect */
+.bg-white:hover {
+  transform: translateY(-5px);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
 /* Footer */
 footer {
-  text-align: center;
-  padding: 1rem;
-  background: #0077ff;
-  color: white;
-  margin-top: 2rem;
+  font-size: 0.9rem;
 }
