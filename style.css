@@ -1,53 +1,123 @@
-/* Portfolio Styles for Muktar Ibrahim */
-body {
+/* Reset */
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: Arial, sans-serif;
+}
+
+body {
   line-height: 1.6;
   background: #f9f9f9;
   color: #333;
+  transition: background 0.3s, color 0.3s;
 }
 
-header {
-  background: linear-gradient(135deg, #0073e6, #00c6ff);
+.dark {
+  background: #121212;
+  color: #f1f1f1;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #0077ff;
   color: white;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+#theme-toggle {
+  background: transparent;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
   text-align: center;
-  padding: 2rem 1rem;
+  padding: 2rem;
 }
 
-header h1 span {
-  color: #ffdd57;
+.hero .banner {
+  max-width: 100%;
+  border-radius: 12px;
+  margin-bottom: 1rem;
 }
 
-nav {
-  margin-top: 1rem;
+.highlight {
+  color: #0077ff;
+  font-weight: bold;
 }
 
-nav a {
-  color: white;
-  margin: 0 10px;
+/* Sections */
+section {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+h2 {
+  margin-bottom: 1rem;
+  color: #0077ff;
+}
+
+/* Projects */
+.projects .card {
+  padding: 1.5rem;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background: white;
+  text-align: center;
+}
+
+.dark .projects .card {
+  background: #1e1e1e;
+  border: 1px solid #444;
+}
+
+/* Buttons */
+.btn, .btn-outline {
+  display: inline-block;
+  margin: 0.5rem;
+  padding: 0.7rem 1.2rem;
+  border-radius: 8px;
   text-decoration: none;
   font-weight: bold;
 }
 
-nav a:hover {
-  text-decoration: underline;
+.btn {
+  background: #0077ff;
+  color: white;
 }
 
-section {
-  padding: 2rem;
-  max-width: 800px;
-  margin: auto;
+.btn-outline {
+  border: 2px solid #0077ff;
+  color: #0077ff;
 }
 
-section h2 {
-  color: #0073e6;
+.btn:hover, .btn-outline:hover {
+  opacity: 0.8;
 }
 
+/* Footer */
 footer {
-  background: #222;
-  color: #aaa;
   text-align: center;
   padding: 1rem;
+  background: #0077ff;
+  color: white;
   margin-top: 2rem;
-  font-size: 0.9rem;
 }
