@@ -1,40 +1,103 @@
-/* Custom styles for Muktar Ibrahim Portfolio */
-
-/* Smooth scrolling */
-html {
-  scroll-behavior: smooth;
+/* Base styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: background 0.3s, color 0.3s;
 }
 
-/* Section spacing */
-section {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+/* Light mode */
+body.light {
+  background: #ffffff;
+  color: #222222;
 }
 
-/* Buttons */
-a.button {
+/* Dark mode */
+body.dark {
+  background: #121212;
+  color: #f1f1f1;
+}
+
+header {
+  background: inherit;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+}
+
+header .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 500;
+}
+
+#mode-toggle {
+  background: none;
+  border: none;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.hero {
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.hero .banner {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1.5rem;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  margin: 0.5rem 0;
+}
+
+.btn {
   display: inline-block;
-  padding: 12px 24px;
-  background: #2563eb;
+  margin-top: 1rem;
+  padding: 0.6rem 1.2rem;
+  background: #0077ff;
   color: white;
-  font-weight: 600;
-  border-radius: 8px;
-  transition: all 0.3s ease;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s;
 }
 
-a.button:hover {
-  background: #1d4ed8;
-  transform: scale(1.05);
+.btn:hover {
+  background: #005fcc;
 }
 
-/* Card hover effect */
-.bg-white:hover {
-  transform: translateY(-5px);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+section {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
 }
 
-/* Footer */
+section h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
 footer {
-  font-size: 0.9rem;
+  text-align: center;
+  padding: 1rem;
+  border-top: 1px solid #ccc;
+  margin-top: 2rem;
 }
