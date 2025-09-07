@@ -1,39 +1,86 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="dark">
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Muktar Ibrahim - AI Agent & Chatbot Developer</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Muktar Ibrahim | AI Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <header>
-    <img src="banner.png" alt="Muktar Ibrahim Banner" class="banner" />
-    <h1>Muktar Ibrahim</h1>
-    <p>AI Agent & Chatbot Developer | Turning Ideas into AI Solutions</p>
-    <button id="theme-toggle">🌙 Toggle Mode</button>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Header -->
+  <header class="bg-white shadow sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto flex justify-between items-center p-4">
+      <h1 class="text-xl font-bold text-blue-600">Muktar Ibrahim</h1>
+      <nav class="space-x-6">
+        <a href="#about" class="hover:text-blue-500">About</a>
+        <a href="#services" class="hover:text-blue-500">Services</a>
+        <a href="#portfolio" class="hover:text-blue-500">Portfolio</a>
+        <a href="#contact" class="hover:text-blue-500">Contact</a>
+      </nav>
+    </div>
   </header>
 
-  <main>
-    <section>
-      <h2>Portfolio</h2>
-      <ul>
-        <li><a href="https://muktar-ai.netlify.app/" target="_blank">Live Portfolio Website</a></li>
-        <li><a href="https://github.com/muktaribro13" target="_blank">GitHub Repositories</a></li>
-      </ul>
-    </section>
+  <!-- Banner -->
+  <section class="bg-gray-100 text-center py-10">
+    <img src="banner.png" alt="Muktar Ibrahim Banner" class="mx-auto rounded-xl shadow-lg">
+  </section>
 
-    <section>
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:muktaribro13@gmail.com">muktaribro13@gmail.com</a></p>
-      <p>Facebook: <a href="https://www.facebook.com/share/1Engwt9e9m/" target="_blank">Connect with me</a></p>
-    </section>
-  </main>
+  <!-- About -->
+  <section id="about" class="max-w-4xl mx-auto text-center">
+    <h2 class="text-3xl font-bold text-blue-600 mb-4">About Me</h2>
+    <p class="text-lg leading-relaxed">
+      Hi, I’m <strong>Muktar Ibrahim</strong>, a passionate AI agent & app developer.  
+      I create intelligent applications that improve workflows, automate processes, and engage customers.  
+      I don’t just build apps — I build <strong>AI solutions that create value.</strong>
+    </p>
+  </section>
 
-  <footer>
-    <p>© 2025 Muktar Ibrahim. All rights reserved.</p>
+  <!-- Services -->
+  <section id="services" class="bg-white max-w-6xl mx-auto mt-12">
+    <h2 class="text-3xl font-bold text-center text-blue-600 mb-8">Services</h2>
+    <div class="grid md:grid-cols-3 gap-6 p-4">
+      <div class="bg-white shadow rounded-xl p-6 hover:shadow-lg">
+        <h3 class="text-xl font-semibold mb-2">🤖 AI Chatbots</h3>
+        <p>Smart chatbots for websites and apps to improve customer engagement.</p>
+      </div>
+      <div class="bg-white shadow rounded-xl p-6 hover:shadow-lg">
+        <h3 class="text-xl font-semibold mb-2">🧠 Custom AI Agents</h3>
+        <p>AI-powered automation and data-driven solutions for businesses.</p>
+      </div>
+      <div class="bg-white shadow rounded-xl p-6 hover:shadow-lg">
+        <h3 class="text-xl font-semibold mb-2">📱 AI App Development</h3>
+        <p>End-to-end development of intelligent mobile and web applications.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section id="portfolio" class="max-w-6xl mx-auto mt-12">
+    <h2 class="text-3xl font-bold text-center text-blue-600 mb-8">Portfolio</h2>
+    <div class="grid md:grid-cols-2 gap-6 p-4">
+      <a href="https://github.com/AXsavag/ai-faq-app" target="_blank" class="bg-white shadow rounded-xl p-6 hover:shadow-lg block">
+        <h3 class="text-xl font-semibold">AI FAQ Assistant</h3>
+        <p>An AI app that answers FAQs instantly.</p>
+      </a>
+      <a href="https://github.com/AXsavag" target="_blank" class="bg-white shadow rounded-xl p-6 hover:shadow-lg block">
+        <h3 class="text-xl font-semibold">GitHub Profile</h3>
+        <p>Explore more of my AI projects.</p>
+      </a>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="bg-gray-100 text-center py-10">
+    <h2 class="text-3xl font-bold text-blue-600 mb-4">Contact Me</h2>
+    <p>📧 Email: <a href="mailto:muktaribro13@gmail.com" class="text-blue-500">muktaribro13@gmail.com</a></p>
+    <p>📘 Facebook: <a href="https://www.facebook.com/share/1Engwt9e9m/" target="_blank" class="text-blue-500">My Facebook</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-white text-center py-4 shadow mt-8">
+    <p>© 2025 Muktar Ibrahim | AI Agent & App Developer</p>
   </footer>
-
-  <script src="script.js"></script>
 </body>
 </html>
