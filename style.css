@@ -1,28 +1,32 @@
-/* Basic clean styling */
+/* Portfolio Styles for Muktar Ibrahim */
 body {
-  font-family: Arial, sans-serif;
   margin: 0;
-  padding: 0;
+  font-family: Arial, sans-serif;
   line-height: 1.6;
   background: #f9f9f9;
   color: #333;
 }
 
 header {
-  background: #111827;
-  color: #fff;
-  padding: 2rem;
+  background: linear-gradient(135deg, #0073e6, #00c6ff);
+  color: white;
   text-align: center;
+  padding: 2rem 1rem;
 }
 
 header h1 span {
-  color: #38bdf8;
+  color: #ffdd57;
+}
+
+nav {
+  margin-top: 1rem;
 }
 
 nav a {
+  color: white;
   margin: 0 10px;
-  color: #38bdf8;
   text-decoration: none;
+  font-weight: bold;
 }
 
 nav a:hover {
@@ -35,10 +39,15 @@ section {
   margin: auto;
 }
 
+section h2 {
+  color: #0073e6;
+}
+
 footer {
+  background: #222;
+  color: #aaa;
   text-align: center;
   padding: 1rem;
-  background: #111827;
-  color: #fff;
   margin-top: 2rem;
+  font-size: 0.9rem;
 }
