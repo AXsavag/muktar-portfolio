@@ -1,38 +1,44 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Muktar Ibrahim | AI Developer</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <h1>👋 Hi, I'm <span>Muktar Ibrahim</span></h1>
-    <p>I build powerful AI apps and solutions for businesses worldwide.</p>
-    <nav>
-      <a href="#work">My Work</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
+/* Basic clean styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background: #f9f9f9;
+  color: #333;
+}
 
-  <section id="work">
-    <h2>🚀 Featured Project</h2>
-    <p>
-      <strong>AI FAQ App:</strong> A chatbot that answers customer questions automatically.  
-      👉 <a href="https://ai-faq.netlify.app/" target="_blank">Try it Live</a> | 
-      <a href="https://github.com/AXsavag/ai-faq-app" target="_blank">View Code</a>
-    </p>
-  </section>
+header {
+  background: #111827;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+}
 
-  <section id="contact">
-    <h2>📬 Contact Me</h2>
-    <p>Email: <a href="mailto:muktaribro13@gmail.com">muktaribro13@gmail.com</a></p>
-    <p>Facebook: <a href="https://facebook.com" target="_blank">Connect on Facebook</a></p>
-  </section>
+header h1 span {
+  color: #38bdf8;
+}
 
-  <footer>
-    <p>© 2025 Muktar Ibrahim | AI Developer</p>
-  </footer>
-</body>
-</html>
+nav a {
+  margin: 0 10px;
+  color: #38bdf8;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #111827;
+  color: #fff;
+  margin-top: 2rem;
+}
